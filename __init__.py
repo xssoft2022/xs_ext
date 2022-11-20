@@ -28,6 +28,20 @@ class xs海龟():
             t.forward(b)
             t.left(90)
         t.done()
+    def 画三角形(a,d):
+        t.forward(a)
+        t.left(d)
+        t.forward(a)
+        t.goto(0,0)
+        t.done()
+    def 海龟前进(distance):
+        t.forward(distance)
+    def 海龟右转(degree):
+        t.right(degree)
+    def 海龟左转(degree):
+        t.left(degree)
+    def 海龟前往(x,y):
+        t.goto(x,y)
 
 '''def 转文本(byte):
     return 'str(byte)'
@@ -47,3 +61,4 @@ def 导库(name) :
 
 def 等待(s) :
     time.sleep(s)
+
