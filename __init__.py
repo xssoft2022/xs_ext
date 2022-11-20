@@ -2,7 +2,7 @@ import turtle as t
 import time
 
 class xsturtle():
-    def 画正方形(a,b):
+    def square(a,b):
         if b == None :
             for i in range(4) :
                 t.forward(a)
@@ -15,7 +15,7 @@ class xsturtle():
                     t.left(90)
             t.done()
 
-    def 画圈(self, extent = None, steps = None):
+    def circle(self, extent = None, steps = None):
         t.circle(self , extent , steps)
         t.done()
 
@@ -41,15 +41,20 @@ class xsturtle():
         t.forward(a)
         t.goto(0,0)
         t.done()
-#     def 海龟前进(distance):
-#         t.forward(distance)
-#     def 海龟右转(degree):
-#         t.right(degree)
-#     def 海龟左转(degree):
-#         t.left(degree)
-#     def 海龟前往(x,y):
-#         t.goto(x,y)
-
+    def forward(distance):
+        t.forward(distance)
+    def right(degree):
+        t.right(degree)
+    def left(degree):
+        t.left(degree)
+    def goto(x,y):
+        t.goto(x,y)
+    def clear():
+        t.clear()
+    def bgcolor():
+        t.bgcolor()
+    def 抬笔():
+        t.penup()
 # '''def 转文本(byte):
 #     return 'str(byte)'
 
