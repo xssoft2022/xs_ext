@@ -19,22 +19,8 @@ class xsturtle():
         t.circle(self , extent , steps)
         t.done()
 
-    '''def circle(r,s):
-        if s == None :
-            t.circle(r)
-            t.done()
-        elif s != None :
-            t.circle(r,s)
-            t.done()
-    '''
 
-#     def 画长方形(a,b):
-#         for i in range(2) :
-#             t.forward(a)
-#             t.left(90)
-#             t.forward(b)
-#             t.left(90)
-#         t.done()
+
     def triangle(a,d):
         t.forward(a)
         t.left(d)
@@ -53,23 +39,9 @@ class xsturtle():
         t.clear()
     def bgcolor():
         t.bgcolor()
-    def 抬笔():
+    def penup():
         t.penup()
-# '''def 转文本(byte):
-#     return 'str(byte)'
 
-# def 跳出循环():
-#     return 'break'
-
-# def 循环执行(frequency):
-#     return 'for i in range (frequency):+    '
-
-# 无限循环 = 'while True:'''
-# def 打印(content):
-#     print(content)
-
-# def 导库(name) :
-#     return 'import {name}'
 
 def wait(s) :
     time.sleep(s)
