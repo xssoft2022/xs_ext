@@ -19,7 +19,7 @@ class xsturtle():
         t.circle(self , extent , steps)
         t.done()
 
-    '''def 画圈(r,s):
+    '''def circle(r,s):
         if s == None :
             t.circle(r)
             t.done()
@@ -71,6 +71,6 @@ class xsturtle():
 # def 导库(name) :
 #     return 'import {name}'
 
-def 等待(s) :
+def wait(s) :
     time.sleep(s)
 
