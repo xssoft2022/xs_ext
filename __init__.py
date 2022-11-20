@@ -28,13 +28,13 @@ class xsturtle():
             t.done()
     '''
 
-    def 画长方形(a,b):
-        for i in range(2) :
-            t.forward(a)
-            t.left(90)
-            t.forward(b)
-            t.left(90)
-        t.done()
+#     def 画长方形(a,b):
+#         for i in range(2) :
+#             t.forward(a)
+#             t.left(90)
+#             t.forward(b)
+#             t.left(90)
+#         t.done()
     def triangle(a,d):
         t.forward(a)
         t.left(d)
@@ -71,6 +71,6 @@ class xsturtle():
 # def 导库(name) :
 #     return 'import {name}'
 
-# def 等待(s) :
-#     time.sleep(s)
+def 等待(s) :
+    time.sleep(s)
 
